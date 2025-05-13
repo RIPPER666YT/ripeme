@@ -1,0 +1,299 @@
+.popup_chat_frame .title-area {
+    position: absolute;
+    right: 0;
+    left: 0;
+    background-color: black;
+}
+.chatDialogs {
+    position: relative;
+    flex-grow: 1;
+    min-height: 0;
+    background: radial-gradient(ellipse farthest-corner at 50% 30%, #000000 0%, #000000 50%, #000000 100%);
+}
+.chatWindow {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    word-break: break-word;
+    background: radial-gradient(ellipse farthest-corner at 50% 30%, #000000 0%, #000000 50%, #000000 100%);
+    font-size: 14px;
+}
+.chatWindow .chatHeader {
+    flex-shrink: 0;
+    background-color: #3a3e46;
+    background: linear-gradient(to right, #ff0000 80%, #ff0000 100%);
+    min-height: 2px;
+    transition: background-color .2s ease-in-out;
+    position: relative;
+}
+._2XZq-_f6npaQdAgeRzKIkz.Yd-DsWkYiFiYwpci--Yk_ {
+    background-color: #000000;
+}
+.chatWindow .chatEntry {
+    flex-shrink: 0;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding-top: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    background-color: #000000;
+    transition: all .21s ease-in-out;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.RVIs84dAE6wHcjH9tkinc .SVGIcon_Submit path {
+    fill: #ff0000;
+    stroke-width: 2px;
+}
+._3Ule3rolhZJiBN4yNNtk1s .RVIs84dAE6wHcjH9tkinc {
+    align-self: flex-end;
+    min-height: 46px;
+    margin-bottom: 2px;
+    background: #000000;
+    transition: background .3s ease;
+    border-radius: 8px;
+}
+.RVIs84dAE6wHcjH9tkinc._3zOBeq5W4cNK3lRz_7aroW, .RVIs84dAE6wHcjH9tkinc.Aupswi7-c-w3XwNO5cp2i {
+    flex: 0;
+    min-width: 46px;
+    position: relative;
+    background-color: #000000;
+    margin: 0px;
+    margin-top: 0px;
+    max-width: 46px;
+    max-height: 46px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.RVIs84dAE6wHcjH9tkinc._3zOBeq5W4cNK3lRz_7aroW, .RVIs84dAE6wHcjH9tkinc.Aupswi7-c-w3XwNO5cp2i {
+    flex: 0;
+    min-width: 46px;
+    position: relative;
+    background-color: #000000;
+    margin: 0px;
+    margin-top: 0px;
+    max-width: 46px;
+    max-height: 46px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.Aupswi7-c-w3XwNO5cp2i {
+    margin-right: 1px;
+}
+.RVIs84dAE6wHcjH9tkinc {
+    position: relative;
+    border: 1px solid #000000;
+    color: #000000;
+    margin: 0px;
+    margin-top: 2px;
+    max-width: 46px;
+    max-height: 46px;
+    padding: 0;
+    background-size: 22px 22px;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 46px;
+    cursor: pointer;
+}
+.RVIs84dAE6wHcjH9tkinc._3zOBeq5W4cNK3lRz_7aroW SVG, .RVIs84dAE6wHcjH9tkinc.Aupswi7-c-w3XwNO5cp2i SVG {
+    width: 24px;
+    height: 24px;
+    color: #ff0000;
+}
+.friendsui-container .SVGIcon_TextRoom, .friendsui-container .SVGIcon_Button.SVGIcon_TextRoom, .friendsui-container .SVGIcon_VoiceRoom, .friendsui-container .SVGIcon_Button.SVGIcon_VoiceRoom {
+    width: 24px;
+    height: 24px;
+    margin-top: 2px;
+    color: #ff0000;
+}
+
+.ChatMessageEntryVoice {
+    flex: 0;
+    min-width: 46px;
+    position: relative;
+    color: #c9c9c9;
+    margin: 0px;
+    margin-top: 0px;
+    max-width: 46px;
+    max-height: 50px;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+    box-shadow: #000 0px 0px 4px inset;
+    transition-property: width, max-width, min-width, border-radius, background-position;
+    transition-duration: .3s, .3s, .3s, .6s;
+    background: radial-gradient(128px 128px at 20% 50%, #1da834 0%, rgba(27, 28, 32, 0) 100%);
+    background-position: -190px 0px;
+    background-color: #1b1c20;
+    background-repeat: no-repeat;
+    background-size: 256px 128px;
+    overflow: hidden;
+}
+.VoiceToggle {
+    max-width: 46px;
+    min-width: 46px;
+    max-height: 46px;
+    width: 46px;
+    height: 46px;
+    margin: 0px;
+    background: #000000;
+    border: none;
+    border: 1px solid #000000;
+    box-shadow: none;
+    padding: 0px;
+    cursor: pointer;
+    transition-property: width, max-width, border-radius, border, background-color;
+    transition-duration: .3s;
+    display: flex;
+}
+.ChatMessageEntryVoice {
+    flex: 0;
+    min-width: 46px;
+    position: relative;
+    color: #c9c9c9;
+    margin: 0px;
+    margin-top: 0px;
+    max-width: 46px;
+    max-height: 50px;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+    box-shadow: #000 0px 0px 4px inset;
+    transition-property: width, max-width, min-width, border-radius, background-position;
+    transition-duration: .3s, .3s, .3s, .6s;
+    background: radial-gradient(128px 128px at 20% 50%, #1da834 0%, rgba(27, 28, 32, 0) 100%);
+    background-position: -190px 0px;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: 256px 128px;
+    overflow: hidden;
+}
+.inviteAnotherFriendButton .SVGIcon_Button {
+    width: 80%;
+    height: 80%;
+    fill: #ff0000;
+    margin-left: 4px;
+    margin-top: 2px;
+}
+.inviteAnotherFriendButton .SVGIcon_Button line, .chatRoomButton .SVGIcon_Button line {
+    stroke: #ff0000;
+    transition: stroke .21s ease-in-out;
+}
+.inviteAnotherFriendButton {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    background-color: #000000;
+    cursor: pointer;
+    transition: top .32s ease-in-out;
+}
+.FriendChatTypingNotification {
+    width: calc(100% - 32px);
+    color: #ff0000;
+    font-weight: 100;
+    text-shadow: none;
+    z-index: 12;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 18px 10px 4px 10px;
+    background-color: #1d1e23;
+    background: linear-gradient(to top, rgb(0 0 0) 0%, rgb(0 0 0) 12px, rgba(29, 30, 35, 0) 80%);
+    margin-right: 6px;
+    opacity: 0;
+    transition: opacity .4s ease-in-out;
+    pointer-events: none;
+}
+
+.MultiUserChat .isCurrentUser .msgText {
+    color: #ff0000;
+}
+.speakerTimeStamp {
+    font-size: 10px;
+    color: #f00;
+    align-self: flex-end;
+    line-height: 20px;
+    margin-left: 6px;
+    white-space: nowrap;
+}
+.msg.timeDivision {
+    height: 18px;
+    font-size: 10px;
+    color: #ff0000;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 0px;
+}
+.timeDivision.time_passes .preHorizDivider, .timeDivision.time_passes .horizDivider {
+    height: 0px;
+    border: 1px dashed #ff000022;
+    background-color: transparent;
+    margin-right: 0px;
+}
+.timeDivision .preHorizDivider {
+    width: 20%;
+    height: 1px;
+    background-color: rgb(255 0 0 / 50%);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 8px;
+}
+
+.timeDivision .horizDivider {
+    height: 1px;
+    flex-grow: 1;
+    background-color: rgb(255 0 0 / 50%);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 8px;
+}
+.msg.timeDivision {
+    height: 18px;
+    font-size: 10px;
+    color: #ff0000;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 0px;
+}
+.isCurrentUser ._1KPraihJAKiBwLJWmOlju2 {
+    color: #ff0000;
+}
+._1KPraihJAKiBwLJWmOlju2 {
+    color: #ff0000;
+}
+._1JXI4j2_xSpVK1YjyEuebr .SVGIcon_X_Line line {
+    stroke: #ff0000;
+    stroke-width: 30px;
+}
+._3Ule3rolhZJiBN4yNNtk1s .RVIs84dAE6wHcjH9tkinc {
+    align-self: flex-end;
+    min-height: 46px;
+    margin-bottom: 2px;
+    background: #000000;
+    transition: background .3s ease;
+}
+.RVIs84dAE6wHcjH9tkinc .SVGIcon_Submit path {
+    fill: #ff0000;
+    stroke-width: 2px;
+}

@@ -1,0 +1,285 @@
+.AvatarAndUser  {
+    padding-left: 15px !important;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+    background-color: rgb(0, 0, 0) !important;
+}
+.friendListHeaderContainer {
+    min-height: 84px;
+    background-color: #000000;
+    border-bottom: none;
+    box-shadow: inset rgba(61, 68, 80, .75) 1px 1px 1px 0px, inset rgba(61, 68, 80, .25) -1px 0px 1px 0px;
+    position: relative;
+    user-select: none;
+    cursor: default;
+    flex-shrink: 0;
+}
+.titleBarContainer .currentUserContainer ._2Ri005Wg_uXDTa71kdRbcN {
+    margin-top: -1px;
+    color: red !important;
+    margin-bottom: 1px;
+    font-size: 12px;
+    display: inline-block;
+    transition: color .94s ease-in-out;
+}
+.currentUserContainer .nOdcT-MoOaXGePXLyPe0H {
+    font-size: 16px;
+    font-family: "Motiva Sans", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    transition: color .94s ease-in-out;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    min-width: 0;
+    color: red !important;
+}
+.friendlistListContainer {
+    overflow-y: auto;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    flex-grow: 1;
+    background: radial-gradient(ellipse farthest-corner at 50% 30%, #000000 0%, #000000 50%, #000000 100%);
+    min-height: 32px;
+}
+.activeTab {
+    background-color: #000000;
+    box-shadow: 0px -2px 3px 0px rgba(0, 0, 0, .05), 4px -1px 1px 0px rgba(0, 0, 0, .05);
+    color: #ff0000;
+}
+.friendsListSectionTitle {
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30px;
+    user-select: none;
+    cursor: default;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left;
+    color: #ff0000;
+    padding: 0;
+    position: relative;
+}
+.friendListFooter {
+    position: relative;
+    min-height: 26px;
+    background-color: #000000;
+    flex-shrink: 0;
+    box-shadow: inset rgb(0 0 0 / 30%) 1px 1px 0px 0px;
+}
+.friend.offline {
+    color: #ff0000;
+}
+.friend.ingame {
+    color: #ff0000;
+}
+.friend.offline {
+    color: #ff0000;
+}
+.online ._3xUpb5DWXPFNcHHIcv-9pe {
+    background: linear-gradient(to bottom, #ff0000 0%, #ff0000 30%, #ff0000 70%, #ff0000 100%);
+}
+.ingame ._3xUpb5DWXPFNcHHIcv-9pe {
+    background: linear-gradient(to bottom, #ff0000 0%, #ff0000 30%, #ff0000 70%, #ff0000 100%);
+}
+._1DsumfIa3MlkzUV9EXY5W9.in-game.rpZ9bKyFXYvNQvgtKn5GV ._2n0EiKMGRP-r_BI5tDtttu {
+    color: #ff0000;
+}
+._1DsumfIa3MlkzUV9EXY5W9.in-game ._2n0EiKMGRP-r_BI5tDtttu {
+    color: #ff0000;
+}
+._1DsumfIa3MlkzUV9EXY5W9.online.rpZ9bKyFXYvNQvgtKn5GV ._2n0EiKMGRP-r_BI5tDtttu {
+    color: #ff0000;
+}
+._1DsumfIa3MlkzUV9EXY5W9.online ._2n0EiKMGRP-r_BI5tDtttu {
+    color: #ff0000;
+}
+.recentChatsGroup .friendGroup .groupName, .friendGroup.taggedGroup .groupName, .friendGroup.gameGroup .groupName {
+    color: #ff0000;
+}
+.gameGroup:not(.OtherGamesGroup):not(.NonSteamGamesGroup) .gameGroupContainer {
+    background-color: #cde2;
+    background-color: red;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;  /* тест */
+    width: 40px;
+    height: 26px;
+    margin-right: 8px;
+}
+.ingame .nOdcT-MoOaXGePXLyPe0H {
+    color: #ff0000;
+}
+.ingame.awayOrSnooze ._2Ri005Wg_uXDTa71kdRbcN, .ingame ._2Ri005Wg_uXDTa71kdRbcN, .ingame ._2Ri005Wg_uXDTa71kdRbcN a, .ingame ._2Ri005Wg_uXDTa71kdRbcN a:hover, .ingame ._2Ri005Wg_uXDTa71kdRbcN a:active, .ingame ._2Ri005Wg_uXDTa71kdRbcN a:visited {
+    color: #ff0000;
+}
+.FriendsListContent .friendlistListContainer .friendGroup.onlineFriends .groupName, .FriendsListContent .friendlistListContainer .friendGroup.offlineFriends .groupName {
+    color: #ff0000;
+}
+.offline .nOdcT-MoOaXGePXLyPe0H {
+    color: #ff0000;
+}
+.offline ._2Ri005Wg_uXDTa71kdRbcN, .offline ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a, .offline ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:hover, .offline ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:active, .offline ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:visited {
+    color: #ff0000;
+}
+.online .nOdcT-MoOaXGePXLyPe0H {
+    color: #ff0000;
+    color: #ff0000;
+}
+.online ._2Ri005Wg_uXDTa71kdRbcN, .online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a, .online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:hover, .online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:active, .online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:visited {
+    color: #ff0000;
+}
+
+.friend.online {
+    color: #ff0000;
+}
+.currentUserContainer.ingame .statusHeaderGlow stop:first-child {
+    stop-color: rgb(255 0 0 / 30%);
+}
+.currentUserContainer.ingame .statusHeaderGlow stop:last-child {
+    stop-color: rgb(255 0 0 / 0%);
+    stop-opacity: 0;
+}
+.FriendsListContent .friendlistListContainer .friendGroup.offlineFriends {
+    border-top: .5px solid rgb(255 0 0);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0, rgba(67, 73, 83, 0) 320px);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(67, 73, 83, 0) 320px);
+    margin-top: 8px;
+}
+.friend.online {
+    color: #ff0000;
+}
+.friendGroup.offlineFriends .groupName .groupCount, .friendGroup.onlineFriends .groupName .groupCount, .friendGroup .groupName .groupCount.collapsed {
+    opacity: 1;
+    transform: translateX(0px);
+    color: #ff0000;
+}
+._3XEmWmfQy7gbYJ4KJ1N9tp {
+    color: #f00;
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 1px;
+    opacity: .5;
+    line-height: 16px;
+}
+.ingame ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN, .ingame ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a, .ingame ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:hover, .ingame ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:active, .ingame ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:visited, .ingame._1BbOegz8bYL7iPzgYpOgQI ._2Ri005Wg_uXDTa71kdRbcN {
+    color: #ff0000;
+}
+.TabSearchButton .ColorSelector {
+    stroke: #ff0000;
+    fill: #ff0000;
+}
+.friendRequestButton .SVGIcon_FriendRequest .friendBodyFull, .friendRequestButton .SVGIcon_FriendRequest .friendHead, .friendRequestButton .SVGIcon_FriendRequest .friendArm, .friendRequestButton .SVGIcon_FriendRequest .friendBody {
+    fill: #ff0000;
+    transition: fill .21s ease-in-out;
+}
+.addFriendButton .SVGIcon_AddFriend .friendHead, .addFriendButton .SVGIcon_AddFriend .friendBody {
+    color: #ff0000;
+    transition: color .21s ease-in-out;
+}
+.addFriendButton .SVGIcon_AddFriend .plusCircle {
+    color: #ff0000;
+    transition: color .21s ease-in-out, transform .21s ease-in-out;
+}
+.title-area-icon .SVGIcon_X_Line line {
+    stroke: #ff0000;
+    stroke-width: 24px;
+}
+.RtSv39ZoBOySnb8XQ5hJf {
+    padding: 0px 12px;
+    border-radius: 2px;
+    color: #f00;
+    gap: 6px;
+    font-size: 12px;
+    font-weight: 500;
+    justify-content: center;
+    cursor: pointer;
+}
+.RtSv39ZoBOySnb8XQ5hJf._9YK5IY219Pm_F53DAxyYp ._34bQcTHo5QKzuujoEyU1tm, .RtSv39ZoBOySnb8XQ5hJf._3qhGkQ5qLVNQQ-J2-uPoHt ._34bQcTHo5QKzuujoEyU1tm {
+    color: #ff0000;
+}
+._3LKQ3S_yqrebeNLF6aeiog {
+    color: #ff0000;
+    width: 32px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+._2Szzh5sKyGgnLUR870zbDE:hover {
+    color: #f00;
+    transition: color .15s ease-out;
+}
+._25lBLzuVeYAUG279up4xP8 {
+    min-width: 16px;
+    width: 16px;
+    min-height: 16px;
+    height: 16px;
+    color: #ff0000;
+    padding: 0 4px 6px;
+    transition: color .15s ease-out;
+    -webkit-app-region: no-drag;
+}
+._25lBLzuVeYAUG279up4xP8._2cO0HdvLEGAdhosLekWsmo {
+    color: #000000;
+}
+._2foCkpRXhqq0UGVE50BWqj ._1KrJ3sFAqPBN9mfpaNTU5F, ._1TdaAqMFadi0UTqilrkelR ._1KrJ3sFAqPBN9mfpaNTU5F {
+    height: 16px;
+    width: 16px;
+    color: #ff0000;
+    transition-property: color;
+    transition-duration: .1s;
+    transition-timing-function: ease-in-out;
+    display: grid;
+}
+.ip-YZhijAMZcuRoXBGiye ._1KrJ3sFAqPBN9mfpaNTU5F {
+    height: 16px;
+    width: 16px;
+    color: #ff0000;
+    transition-property: color;
+    transition-duration: .1s;
+    transition-timing-function: ease-in-out;
+}
+.contextMenuItem ._2QcdrheE9WasLLyJYHymUv._54dy2uxVcadf_1e6Poifs {
+    color: #ff0000;
+    font-weight: 300;
+}
+.groupHeaderContainer .SortByRecent .SVGIcon_SortBy {
+    stroke: #f00;
+}
+.ToggleGroupChatList .SVGIcon_DoubleArrow polyline {
+    stroke: #ff0000;
+}
+.friendsListSectionTitle .SVGIcon_NewChatGroup {
+    fill: #ff0000;
+    stroke-width: 0px;
+    width: 20px;
+    height: 20px;
+    margin-top: -2px;
+    margin-right: 2px;
+}
+.friendsListSectionTitle .createChatRoomButton:hover .SVGIcon_NewChatGroup {
+    fill: #f00;
+}
+.friendsListSectionTitle .SVGIcon_NewChatGroup line {
+    stroke: #000000;
+}
+:not(.friendInviteContainer) .online .ContextMenuButton .SVGIcon_DownArrowContextMenu {
+    fill: #ff0000;
+}
+.ContextMenuButton .SVGIcon_DownArrowContextMenu {
+    width: 10px;
+    height: 10px;
+    padding-left: 4px;
+    margin-bottom: 2px;
+    fill: red;
+}
+.currentUserContainer .ContextMenuButton:hover .SVGIcon_DownArrowContextMenu, .friend:hover .ContextMenuButton:hover .SVGIcon_DownArrowContextMenu {
+    fill: #f00;
+}
+.groupHeaderContainer .SortByRecent:hover .SVGIcon_SortBy, .groupHeaderContainer .SortByRecent.gpfocus .SVGIcon_SortBy {
+    stroke: #f00;
+}
